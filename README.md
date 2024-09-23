@@ -1,27 +1,80 @@
-# NetflixCloneYt
+# Netflix Clone 🎬
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+A **Netflix clone** built using **React.js** that replicates key features of Netflix, including browsing movies and shows, viewing trailers, and interacting with a clean, responsive UI. This project demonstrates front-end skills using React along with API integration for fetching movie data.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 🎥 Browse a variety of movies and TV shows
+- 📺 Play trailers of movies and shows
+- 🗂️ Categorized content based on genre
+- 🔍 Search functionality for finding specific titles
+- 📱 Fully responsive design for mobile and desktop
+- 🌐 API integration for dynamic content fetching
 
-## Build
+## Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **React.js**: Front-end framework for building user interfaces
+- **TMDB API**: Used to fetch movie and show data
+- **CSS**: For styling the application
+- **JavaScript (ES6+)**: Application logic and dynamic behavior
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run this project locally, follow these steps:
 
-## Running end-to-end tests
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/soundaryalaharivalipe/netflix-clone.git
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Navigate to the project directory**:
+    ```bash
+    cd netflix-clone
+    ```
 
-## Further help
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Get an API key from TMDB**:
+    - Visit [The Movie Database (TMDB)](https://www.themoviedb.org/) and sign up to get an API key.
+
+5. **Create a `.env` file** in the root of the project and add your API key:
+    ```bash
+    REACT_APP_TMDB_API_KEY=your_api_key_here
+    ```
+
+6. **Start the development server**:
+    ```bash
+    npm start
+    ```
+
+7. The app should now be running on `http://localhost:3000/`.
+
+## Usage
+
+Once the app is running:
+
+- Browse through the categories of movies and TV shows
+- Click on any title to view its trailer
+- Use the search bar to find specific movies or shows
+- Enjoy the responsive and dynamic user interface
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
